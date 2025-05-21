@@ -1,8 +1,8 @@
 from backend import FaceDataset, train_model, data_transforms
 
 # Path to your dataset
-DATASET_PATH = r"C:\Users\Abhinav Somisetty\Final_Project\enrolled_subjects"  # Update this path
-MODEL_PATH = r"C:\Users\Abhinav Somisetty\Final_Project\model.pth"
+DATASET_PATH = r"/Users/adarsh.vasanthappa/Desktop/College/Capstone/final_year/enrolled_subjects"  # Update this path
+MODEL_PATH = r"/Users/adarsh.vasanthappa/Desktop/College/Capstone/final_year/trained_models/model_mac_1.pth"
 
 # Initialize dataset with augmentation
 dataset = FaceDataset(DATASET_PATH, transform=data_transforms)
